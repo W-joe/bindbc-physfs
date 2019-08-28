@@ -1,0 +1,4 @@
+[wrap-git]
+directory=bindbc-loader
+url=https://github.com/W-joe/bindbc-loader.git
+revision=HEAD

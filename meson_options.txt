@@ -1,0 +1,7 @@
+option('physfs_version',
+	type: 'combo', choices: ['Physfs_200', 'Physfs_201',
+		'Physfs_202', 'Physfs_203', 'Physfs_211', 'Physfs_300',
+		'Physfs_301', 'Physfs_302'],
+	yield: true,
+	description: 'Enable a particular Physfs version or use the first version by default.')
+
