@@ -1,0 +1,15 @@
+build*
+doc
+lib
+bin
+.dub
+dub.selections.*
+
+subprojects/*
+!subprojects/*.wrap
+
+.bak
+.tmp
+.swp
+.un~
+
