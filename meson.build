@@ -81,6 +81,6 @@ pkgConf.generate(
 	version: meson.project_version(),
 	description: project_description,
 	d_module_versions: module_versions,
-	requires: ['bindbc-loader_' + compiler_id, project_target],
+	libraries: target_lib,
 	)
 
